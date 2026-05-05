@@ -1,0 +1,154 @@
+{
+  "scraped_at": "2026-05-05T01:11:27.418Z",
+  "profile": {
+    "username": "takkasteelofficial",
+    "full_name": "Takka Steel Bogor",
+    "bio": "Lihat foto dan video Instagram dari Takka Steel Bogor (@takkasteelofficial)",
+    "tagline": "WE ARE HERE! TAKKA STEEL – PUSAT BAJA & BAHAN BANGUNAN",
+    "stats": {
+      "posts": 67,
+      "followers": 32,
+      "following": 2
+    },
+    "profile_pic_url": "https://scontent.cdninstagram.com/v/t51.75761-19/494272265_17856656010422009_6645054622620558354_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Kl06fmhfUZwQ7kNvwH_6BJo&_nc_oc=AdpNj5KhPm_5SSzA9eipFXqmIz1kAtV8vSSSkoXbK96Z80heCHigjQfiNFCSABEv7wo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=zcVZ3xpdFp0lhCdZF0w11A&_nc_ss=7ba8c&oh=00_Af6pE82zdEqUdh7pnbvNYjKL8dYH9XMgZl2rU_BM7ndRkQ&oe=69FF0FAB",
+    "profile_pic_local": "images/profile.jpg",
+    "external_url": "",
+    "contact": {
+      "phone": "0895-1861-1616",
+      "whatsapp": "62895186116116"
+    },
+    "locations": [
+      {
+        "name": "Takka Steel 1",
+        "address": "Jl. Lkr. Laladon, Ciherang, Kec. Dramaga, Kabupaten Bogor, Jawa Barat"
+      },
+      {
+        "name": "Takka Steel 2",
+        "address": "Jalan Lingkar Luar Laladon No. 51, RT.1/RW.7, Ciherang, Ciomas, Kabupaten Bogor"
+      }
+    ]
+  },
+  "products": [
+    {
+      "index": 1,
+      "name": "Besi H Beam",
+      "price": "Rp3.015.000",
+      "category": "Besi Struktural",
+      "description": "Besi H Beam untuk konstruksi bangunan dan struktur berat",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 2,
+      "name": "Besi WF (Wide Flange)",
+      "price": "Rp1.890.000",
+      "category": "Besi Struktural",
+      "description": "Besi WF untuk rangka bangunan, jembatan, dan konstruksi baja",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 3,
+      "name": "Besi UNP (Kanal U)",
+      "price": "Rp220.000",
+      "category": "Besi Struktural",
+      "description": "Besi UNP / Kanal U untuk struktur rangka dan penopang",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 4,
+      "name": "Bondeck / Floordeck",
+      "price": "Rp297.000 - Rp312.000",
+      "category": "Atap & Lantai",
+      "description": "Bondeck / Floordeck untuk dak lantai beton bertulang",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 5,
+      "name": "Atap Spandek Pasir",
+      "price": "Rp126.000 - Rp144.000",
+      "category": "Atap & Lantai",
+      "description": "Atap Spandek berlapis pasir, tersedia warna Blue, Black, Green, Brown",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 6,
+      "name": "Atap Metal Pasir",
+      "price": "Rp25.000",
+      "category": "Atap & Lantai",
+      "description": "Atap metal dengan lapisan pasir untuk tampilan estetik",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 7,
+      "name": "Nok Spandek / Talang Jurai",
+      "price": "Rp18.000",
+      "category": "Atap & Lantai",
+      "description": "Nok spandek dan talang jurai untuk penutup atap",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 8,
+      "name": "Acrylic Board 4mm-5mm",
+      "price": "Rp700.000",
+      "category": "Material Bangunan",
+      "description": "Papan acrylic tebal 4-5mm untuk partisi dan dekorasi",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 9,
+      "name": "Hollow Partisi / Plafond",
+      "price": "Rp11.000",
+      "category": "Material Bangunan",
+      "description": "Hollow untuk rangka partisi dinding dan plafond",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 10,
+      "name": "Reng Baja Ringan Galvalume",
+      "price": "Rp23.000",
+      "category": "Baja Ringan",
+      "description": "Reng baja ringan galvalume anti karat untuk rangka atap",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 11,
+      "name": "Besi Beton",
+      "price": "Hubungi Kami",
+      "category": "Besi Struktural",
+      "description": "Besi beton berbagai ukuran untuk pondasi dan konstruksi",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    },
+    {
+      "index": 12,
+      "name": "Baja Ringan",
+      "price": "Hubungi Kami",
+      "category": "Baja Ringan",
+      "description": "Baja ringan untuk rangka atap rumah dan bangunan",
+      "image_url": "",
+      "image_local": "",
+      "source": "research"
+    }
+  ],
+  "posts": []
+}

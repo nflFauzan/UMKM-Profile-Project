@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Takka Steel Bogor - Pusat Baja dan Bahan Bangunan terlengkap di Bogor. Menyediakan besi, baja, atap, dan kebutuhan bangunan berkualitas.">
+  <meta name="keywords" content="takka steel, baja bogor, bahan bangunan bogor, besi, atap, pusat bangunan">
+  <title>Takka Steel Bogor - Pusat Baja & Bahan Bangunan</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <div class="logo-icon">
+          <i data-lucide="building-2"></i>
+        </div>
+        <span class="logo-text">TAKKA<span class="accent">STEEL</span></span>
+      </a>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active" data-section="hero">Beranda</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">Tentang</a></li>
+        <li><a href="#products" class="nav-link" data-section="products">Produk</a></li>
+        <li><a href="#gallery" class="nav-link" data-section="gallery">Galeri</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Kontak</a></li>
+      </ul>
+      
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-effects">
+      <div class="hero-gradient-orb orb-1"></div>
+      <div class="hero-gradient-orb orb-2"></div>
+      <div class="hero-gradient-orb orb-3"></div>
+      <div class="hero-particles" id="particles-container"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i data-lucide="sparkles"></i>
+        <span>Pusat Baja & Bahan Bangunan Bogor</span>
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="hero-title-line">Solusi Lengkap</span>
+        <span class="hero-title-line gradient-text">Baja & Bangunan</span>
+        <span class="hero-title-line">Terpercaya</span>
+      </h1>
+      
+      <p class="hero-description" id="hero-bio">
+        Menyediakan beragam jenis besi, baja, atap, dan bahan bangunan lainnya dengan kualitas terbaik dan harga kompetitif.
+      </p>
+      
+      <div class="hero-cta">
+        <a href="#products" class="btn btn-primary" id="cta-products">
+          <i data-lucide="package"></i>
+          <span>Lihat Produk</span>
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="cta-contact">
+          <i data-lucide="phone"></i>
+          <span>Hubungi Kami</span>
+        </a>
+      </div>
+
+      <div class="hero-stats" id="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-number" id="stat-posts">67</span>
+          <span class="hero-stat-label">Postingan</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" id="stat-followers">32</span>
+          <span class="hero-stat-label">Pengikut</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" id="stat-products">50+</span>
+          <span class="hero-stat-label">Jenis Produk</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i data-lucide="info"></i>
+          Tentang Kami
+        </span>
+        <h2 class="section-title">Mitra Terpercaya untuk<br><span class="gradient-text">Kebutuhan Bangunan Anda</span></h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-card about-main" id="about-description">
+          <div class="about-card-icon">
+            <i data-lucide="building-2"></i>
+          </div>
+          <h3>Takka Steel Bogor</h3>
+          <p id="about-bio">Pusat baja dan bahan bangunan terlengkap di Bogor. Kami menyediakan beragam jenis besi, baja, atap, dan bahan bangunan lainnya dengan kualitas terbaik dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas utama kami.</p>
+          <div class="about-profile-pic" id="about-profile">
+            <img src="" alt="Takka Steel Profile" id="profile-image" loading="lazy">
+          </div>
+        </div>
+        
+        <div class="about-features">
+          <div class="feature-card" id="feature-1">
+            <div class="feature-icon">
+              <i data-lucide="shield-check"></i>
+            </div>
+            <h4>Kualitas Terjamin</h4>
+            <p>Produk baja dan bahan bangunan berstandar tinggi dari supplier terpercaya</p>
+          </div>
+          
+          <div class="feature-card" id="feature-2">
+            <div class="feature-icon">
+              <i data-lucide="truck"></i>
+            </div>
+            <h4>Pengiriman Cepat</h4>
+            <p>Layanan antar langsung ke lokasi proyek Anda di area Bogor dan sekitarnya</p>
+          </div>
+          
+          <div class="feature-card" id="feature-3">
+            <div class="feature-icon">
+              <i data-lucide="tags"></i>
+            </div>
+            <h4>Harga Kompetitif</h4>
+            <p>Penawaran harga terbaik dengan berbagai pilihan produk berkualitas</p>
+          </div>
+          
+          <div class="feature-card" id="feature-4">
+            <div class="feature-icon">
+              <i data-lucide="headphones"></i>
+            </div>
+            <h4>Konsultasi Gratis</h4>
+            <p>Tim kami siap membantu memilihkan material yang tepat untuk proyek Anda</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS SECTION ============ -->
+  <section class="section products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i data-lucide="package"></i>
+          Produk Kami
+        </span>
+        <h2 class="section-title">Katalog Produk<br><span class="gradient-text">Terbaru dari Instagram</span></h2>
+        <p class="section-subtitle">Data produk diambil langsung dari akun Instagram @takkasteelofficial</p>
+      </div>
+      
+      <div class="products-grid" id="products-grid">
+        <!-- Products will be dynamically inserted by app.js -->
+        <div class="loading-state" id="products-loading">
+          <div class="loading-spinner"></div>
+          <p>Memuat data produk...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY SECTION ============ -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i data-lucide="image"></i>
+          Galeri
+        </span>
+        <h2 class="section-title">Galeri Aktivitas<br><span class="gradient-text">& Dokumentasi</span></h2>
+      </div>
+      
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Gallery will be dynamically inserted by app.js -->
+        <div class="loading-state" id="gallery-loading">
+          <div class="loading-spinner"></div>
+          <p>Memuat galeri...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTAGRAM CTA SECTION ============ -->
+  <section class="section ig-cta" id="ig-cta">
+    <div class="container">
+      <div class="ig-cta-card">
+        <div class="ig-cta-content">
+          <div class="ig-cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="currentColor"/>
+            </svg>
+          </div>
+          <h2>Follow Kami di Instagram</h2>
+          <p>Dapatkan update terbaru tentang produk, promo, dan aktivitas kami</p>
+          <a href="https://www.instagram.com/takkasteelofficial/" target="_blank" rel="noopener noreferrer" class="btn btn-instagram" id="btn-follow-ig">
+            <span>@takkasteelofficial</span>
+            <i data-lucide="external-link"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i data-lucide="mail"></i>
+          Kontak
+        </span>
+        <h2 class="section-title">Hubungi Kami<br><span class="gradient-text">untuk Konsultasi</span></h2>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-card" id="contact-instagram">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="currentColor"/>
+            </svg>
+          </div>
+          <h4>Instagram</h4>
+          <p>@takkasteelofficial</p>
+          <a href="https://www.instagram.com/takkasteelofficial/" target="_blank" rel="noopener noreferrer">Kunjungi →</a>
+        </div>
+        
+        <div class="contact-card" id="contact-location">
+          <div class="contact-icon">
+            <i data-lucide="map-pin"></i>
+          </div>
+          <h4>Lokasi</h4>
+          <p>Bogor, Jawa Barat</p>
+          <span>Indonesia</span>
+        </div>
+        
+        <div class="contact-card" id="contact-hours">
+          <div class="contact-icon">
+            <i data-lucide="clock"></i>
+          </div>
+          <h4>Jam Operasional</h4>
+          <p>Senin - Sabtu</p>
+          <span>08:00 - 17:00 WIB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-icon">
+              <i data-lucide="building-2"></i>
+            </div>
+            <span class="logo-text">TAKKA<span class="accent">STEEL</span></span>
+          </div>
+          <p>Pusat Baja dan Bahan Bangunan terpercaya di Bogor. Melayani dengan kualitas dan harga terbaik.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#products">Produk</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h4>Ikuti Kami</h4>
+          <a href="https://www.instagram.com/takkasteelofficial/" target="_blank" rel="noopener noreferrer" class="social-link" id="footer-ig-link">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="currentColor"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year">2026</span> Takka Steel Bogor. All rights reserved.</p>
+        <p class="footer-data-source">Data diambil dari Instagram • Terakhir diperbarui: <span id="last-updated">-</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX MODAL ============ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="Lightbox Image" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

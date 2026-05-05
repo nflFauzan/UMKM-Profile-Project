@@ -1,0 +1,29 @@
+{
+  "name": "umkm-profile-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node scraper/index.js",
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nflFauzan/UMKM-Profile-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nflFauzan/UMKM-Profile-Project/issues"
+  },
+  "homepage": "https://github.com/nflFauzan/UMKM-Profile-Project#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "playwright": "^1.59.1"
+  }
+}
